@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/main.css">
+    <link rel="stylesheet" href="/lib/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Freeman&display=swap" rel="stylesheet">
+    <link rel="icon" href="/img/logo2.ico" type="image/png">
+    <title>Story Bonds</title>
+</head>
+<body>
+    <header>
+        <div class="cabecalho">
+            <nav id="cabecalho" class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="/img/logo1.png" alt="Uma logo que consiste em um laço estilizado minimalista" class="logo">
+                    </a>
+                    <h1 class="navbar-brand mb-0">Story Bonds</h1>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="menu">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Meu Perfil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Login/Cadastro</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Envie Sua História</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container mt-4">
+        <div id="carousel-1" class="carousel slide" data-bs-ride="carousel">   
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/CARROSSEL UM.png" class="d-block w-100" alt="pessoas se reencontrando">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/CARROSSEL DOIS.png" class="d-block w-100" alt="pessoas se reencontrando (A grande familia, familia do zeze de camargo)">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-1" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel-1" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel-1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-4">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form class="d-flex justify-content-center">
+                    <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                    <button id="btn" class="btn" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="img/amigos.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title">História da Semana</h4>
+                        <p class="card-text">
+                            <h6>Encontro Inesperado: Uma História de Reunião Familiar Através do Story Bonds</h6>
+                            <p>Foi uma manhã como qualquer outra, quando decidi verificar minha caixa de entrada no Story Bonds. Enquanto rolava pela lista de histórias, uma capturou minha atenção: "Reunião Inesperada: A Jornada de Encontrar Meu Irmão Perdido". </p>
+                            <p>Curioso, cliquei para ler mais. Ao mergulhar na história, percebi que era sobre alguém procurando por um irmão perdido há muitos anos. Cada detalhe ressoava com a minha própria jornada de busca por minha família biológica.</p>
+                            <p>Decidi enviar uma mensagem para o autor da história, compartilhando minha experiência e oferecendo meu apoio. Para minha surpresa, a resposta veio rapidamente: meu irmão perdido era o autor da história!</p>
+                            <p>Depois de trocar mensagens emocionadas e compartilhar histórias de vida, finalmente decidimos nos encontrar pessoalmente. Graças ao Story Bonds, encontramos um ao outro e agora estamos juntos, criando novas memórias e fortalecendo nosso vínculo de família.</p>
+                            <p>Esta jornada de reunião familiar foi verdadeiramente transformadora e tudo começou com um simples clique no Story Bonds.</p>
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Atualizado 3 minutos atrás</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="img/escrevendo.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title">Sua História</h4>
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label">Nome:</label>
+                                <input type="text" class="form-control" id="nome">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email:</label>
+                                <input type="email" class="form-control" id="email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label">Mensagem:</label>
+                                <textarea class="form-control" id="mensagem" rows="3"></textarea>
+                            </div>
+                        </form>
+                        <div id="form-check" class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                            Concorcodo com os  <a href="#">termos de envio</a>.
+                            </label>
+                        </div>
+                        <button href="#" id="btn" class="btn" type="submit">Enviar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="img/socialmedia.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title">Nossos Links</h4>
+                        <ul id="social">
+                            <li>
+                               <a id="link" href="#" target="_blank" >
+                                    <img src="img/instagram.png">
+                                     Instagram
+                               </a> 
+                            </li>
+                            <li>
+                                <a id="link" href="#" target="_blank" >
+                                    <img src="img/youtube.png">
+                                    Youtube
+                                </a>
+                               
+                            </li>
+                            <li>
+                                <a id="link" href="#" target="_blank" >
+                                    <img src="img/facebook.png">
+                                    Facebook
+                                </a>
+                               
+                            </li>
+                            <li>
+                                <a id="link" href="#" target="_blank" >
+                                    <img src="img/x.png">
+                                    X
+                                </a>
+   
+                            </li>
+                            <li>
+                                <a id="link" href="#" target="_blank" >
+                                    <img src="img/pinterest.png">
+                                    Pinterest
+                                </a>
+                 
+                            </li>
+                            <li>
+                                <a id="link" href="#" target="_blank" >
+                                    <img src="img/tiktok.png">
+                                    Tiktok
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="cabecalho">
+            <small class="text-muted">Criado por Huylquias Santana - EBAC - 2024</small>
+        </div>
+    </footer>
+    <script src="/lib/bootstrap.bundle.min.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+</html>

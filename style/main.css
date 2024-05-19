@@ -1,0 +1,110 @@
+.logo {
+    max-width: 100px;
+    height: auto; 
+}
+
+.cabecalho { 
+    padding-top: 30px;
+    background-color: #FDF7EC;
+    padding-bottom: 30px;
+    border-radius: 10px;
+}
+
+footer { 
+    text-align: center;
+}
+.col > h1 { 
+    font-family: "Freeman", sans-serif;
+    font-weight: 300;
+    color: #3E2213;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.nav-item a { 
+    color: #3E2213 ;
+}
+
+.nav-item:hover a{ 
+    color: #C67958; 
+}
+
+.nav-item:active a { 
+    color: #6622CC
+}  
+
+.btn { 
+    color: yellow;
+}
+
+#div-carousel { 
+    margin-top: 30px;
+}
+
+#carousel-img { 
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+#card { 
+    padding-top: 10px;
+}
+
+#card-col { 
+    padding: 20px;
+}
+
+#body-card { 
+    max-height: 500px; 
+    overflow-y: auto;
+}
+
+#social > li > a > img { 
+    max-width: 20%; 
+    padding-right: 3px;
+    }
+
+#social > li { 
+    padding: 3px;
+    list-style: none;
+    padding-right: 100px;
+    color: inherit;
+}
+
+#link { 
+    text-decoration: none;
+
+}
+
+#form-check { 
+    padding-bottom: 10px;
+}
+
+
+#btn{
+
+font-family: Roboto, sans-serif;
+font-weight: 0;
+font-size: 14px;
+color: #fff;
+background-color: #804121;
+padding: 10px 30px;
+border: solid #C67958 2px;
+border-radius: 40px 20px;
+transition : 1048ms;
+transform: translateY(0);
+display: flex;
+flex-direction: row;
+align-items: center;
+cursor: pointer;
+}
+
+#btn:hover{
+
+transition : 1048ms;
+padding: 10px 42px;
+transform : translateY(-0px);
+background-color: #C67958;
+color: #ffffff;
+border: solid 2px #c67958;
+}
