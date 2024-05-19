@@ -34,7 +34,7 @@
 
 ## 🔗 Acesse o Projeto Online
 
-Confira a versão online do projeto no [Vercel](https://your-vercel-link.vercel.app).
+Confira a versão online do projeto no [Vercel](https://storybonds-ebac.vercel.app/).
 
 ---
 
